@@ -5,7 +5,7 @@ This is a Clojure client for Rapid7's [AttackerKB API](https://attackerkb.com), 
 
 ## Installation
 
-[![Clojars Project](https://img.shields.io/clojars/v/attackerkb-clj.svg)](https://clojars.org/attackerkb-clj)
+[![AKB](https://img.shields.io/clojars/v/attackerkb-clj.svg)](https://clojars.org/attackerkb-clj)
 
 ## Auth
 Instructions on how to obtain an AttackerKB API key can be found [here](https://attackerkb.com/faq#faq_api).
@@ -13,6 +13,10 @@ Instructions on how to obtain an AttackerKB API key can be found [here](https://
 ## Usage
 
 attackerkb-clj provides an interface for the AttackerKB API and offers the option of building a full record for a vulnerability (a full record includes topics and assessments).
+
+```text
+[attackerkb-clj "0.1.0"]
+```
 
 ```clojure
 (ns my.ns
