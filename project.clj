@@ -15,5 +15,11 @@
             [lein-cloverage "1.2.2"]]
   :main ^:skip-aot attackerkb-clj.core
   :target-path "target/%s"
+<<<<<<< HEAD
+=======
+  :signing {:gpg-key "renteria.irina@gmail.com"}
+  :deploy-repositories [["releases" :clojars]
+                        ["snapshots" :clojars]]
+>>>>>>> e0b2fe2... Update gitignore and project name
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})

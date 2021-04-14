@@ -1,0 +1,14 @@
+lib/*
+multi-lib/*
+coref
+classes/*
+.lein-failures
+.lein-deps-sum
+target/*
+pom.xml*
+doc*
+.lein*
+.nrepl*
+.idea
+*.iml
+.DS_Store
