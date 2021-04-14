@@ -1,5 +1,5 @@
 # AttackerKB
-This is a Clojure client for Rapid7's ![AttackerKB API](https://attackerkb.com), a crowd-sourced knowledge base of vulnerability intelligence.
+This is a Clojure client for Rapid7's [AttackerKB API](https://attackerkb.com), a crowd-sourced knowledge base of vulnerability intelligence.
 
 ![AKB](https://github.com/irinarenteria/attackerkb-clj/blob/main/assets/akb.png)
 
