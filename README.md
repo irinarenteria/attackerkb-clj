@@ -32,19 +32,19 @@ attackerkb-clj provides an interface for the AttackerKB API and offers the optio
 @(akb/get-topics! "api-key" {:q "zero-day"})
 
 ; Get a particular topic
-@(akb/get-topic! :topic-id)
+@(akb/get-topic! "api-key" :topic-id)
 
 ; Get all assessments for a particular topic
 @(akb/get-assessments! "api-key" {:topic-id "123"})
 
 ; Get a particular assessment
-@(akb/get-assessment! :assessment-id)
+@(akb/get-assessment! "api-key" :assessment-id)
 
 ; Get all contributors created after a certain date
-@(akb/get-contributors! {:created-after "date-time"})
+@(akb/get-contributors! "api-key" {:created-after "date-time"})
 
 ; Get a particular contributor
-@(akb/get-contributor! :contributor-id)
+@(akb/get-contributor! "api-key" :contributor-id)
 
 ; Retrieving a vulnerability's full record
 (ns my.ns
