@@ -5,9 +5,7 @@ This is a Clojure client for the AttackerKB API and can be used to discover vuln
 
 ## Installation
 
-```text
-[attacker-kb "0.1.0"]
-```
+[![Clojars Project](https://img.shields.io/clojars/v/attackerkb-clj.svg)](https://clojars.org/attackerkb-clj)
 
 ## Auth
 Instructions on how to obtain an AttackerKB API key can be found [here](https://attackerkb.com/faq#faq_api).
