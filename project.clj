@@ -1,4 +1,4 @@
-(defproject attackerkb-clj "0.1.0-SNAPSHOT"
+(defproject attackerkb-clj "0.1.0"
   :description "AttackerKB clojure interface"
   :url "https://github.com/irinarenteria/attackerkb-clj"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
@@ -15,5 +15,6 @@
             [lein-cloverage "1.2.2"]]
   :main ^:skip-aot attackerkb-clj.core
   :target-path "target/%s"
+  :signing {:gpg-key "renteria.irina@gmail.com"}
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
